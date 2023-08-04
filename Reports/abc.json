@@ -1,0 +1,161 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-30T18:45:04.176Z",
+        "line": 4,
+        "name": "Test Register Page functinality",
+        "description": "",
+        "id": "test-guru99-register-application;test-register-page-functinality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11109253900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open Guru99 register page on \"edge\" broweser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"edge\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinitions.RegisterPageStepDef.user_open_guru99_register_page_on_broweser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 463462900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid contactinfo as firstname lastname phone and email",
+            "match": {
+              "location": "StepDefinitions.RegisterPageStepDef.user_enter_valid_contactinfo_as_firstname_lastname_phone_and_email(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc",
+                  "xyx",
+                  "1234567890",
+                  "abc@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 527696500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter valid maillinginfo as address city state postalcode and country",
+            "match": {
+              "location": "StepDefinitions.RegisterPageStepDef.user_enter_valid_maillinginfo_as_address_city_state_postalcode_and_country(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "pune",
+                  "Pune",
+                  "Maharashta",
+                  "444444",
+                  "INDIA"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1376079600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter valid userinfo as username password confirmpassword and user click  on submit button",
+            "match": {
+              "location": "StepDefinitions.RegisterPageStepDef.enter_valid_userinfo_as_username_password_confirmpassword_and_user_click_on_submit_button(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc123",
+                  "abc@123",
+                  "abc@123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-30T18:45:17.720Z",
+        "line": 13,
+        "name": "Test RegisterPageSuccess Functinality",
+        "description": "",
+        "id": "test-guru99-register-application;test-registerpagesuccess-functinality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1007400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on RegisterPageSuccess and user capture screenshot",
+            "match": {
+              "location": "StepDefinitions.RegisterPageStepDef.user_is_on_register_page_success_and_user_capture_screenshot()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on sign-in link",
+            "match": {
+              "location": "StepDefinitions.RegisterPageStepDef.user_click_on_sign_in_link()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Test Guru99 Register Application",
+    "description": "",
+    "id": "test-guru99-register-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFiles/RegisterPage.feature",
+    "tags": [
+      {
+        "name": "@EndToEndTesting",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

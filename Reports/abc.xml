@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="13.697">
+    <testcase classname="Test Guru99 Register Application" name="Test Register Page functinality" time="13.537">
+        <system-out><![CDATA[Given user open Guru99 register page on "edge" broweser.....................passed
+When user enter valid contactinfo as firstname lastname phone and email.....passed
+Then user enter valid maillinginfo as address city state postalcode and country.passed
+And enter valid userinfo as username password confirmpassword and user click  on submit button.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Register Application" name="Test RegisterPageSuccess Functinality" time="0.002">
+        <system-out><![CDATA[When user is on RegisterPageSuccess and user capture screenshot.............passed
+And user click on sign-in link..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

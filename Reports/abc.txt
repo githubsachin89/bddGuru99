@@ -1,0 +1,12 @@
+
+@EndToEndTesting
+Scenario: Test Register Page functinality                                                        [90m# AllFeatureFiles/RegisterPage.feature:4[0m
+  [32mGiven [0m[32muser open Guru99 register page on [0m[32m[1m"edge"[0m[32m broweser[0m                                        [90m# StepDefinitions.RegisterPageStepDef.user_open_guru99_register_page_on_broweser(java.lang.String)[0m
+  [32mWhen [0m[32muser enter valid contactinfo as firstname lastname phone and email[0m                        [90m# StepDefinitions.RegisterPageStepDef.user_enter_valid_contactinfo_as_firstname_lastname_phone_and_email(io.cucumber.datatable.DataTable)[0m
+  [32mThen [0m[32muser enter valid maillinginfo as address city state postalcode and country[0m                [90m# StepDefinitions.RegisterPageStepDef.user_enter_valid_maillinginfo_as_address_city_state_postalcode_and_country(io.cucumber.datatable.DataTable)[0m
+  [32mAnd [0m[32menter valid userinfo as username password confirmpassword and user click  on submit button[0m [90m# StepDefinitions.RegisterPageStepDef.enter_valid_userinfo_as_username_password_confirmpassword_and_user_click_on_submit_button(io.cucumber.datatable.DataTable)[0m
+
+@EndToEndTesting
+Scenario: Test RegisterPageSuccess Functinality                   [90m# AllFeatureFiles/RegisterPage.feature:13[0m
+  [32mWhen [0m[32muser is on RegisterPageSuccess and user capture screenshot[0m [90m# StepDefinitions.RegisterPageStepDef.user_is_on_register_page_success_and_user_capture_screenshot()[0m
+  [32mAnd [0m[32muser click on sign-in link[0m                                  [90m# StepDefinitions.RegisterPageStepDef.user_click_on_sign_in_link()[0m
